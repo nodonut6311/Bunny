@@ -1,0 +1,25 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-lg);
+  background-color: var(--color-neutral-bg);
+}
+
+.app__card {
+  max-width: 420px;
+  width: 100%;
+}
+
+.app__card h1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-accent-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.app__card p {
+  color: var(--color-text-muted);
+  font-weight: 700;
+}
